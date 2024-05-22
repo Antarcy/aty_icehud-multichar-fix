@@ -1,3 +1,6 @@
+MULTICHAR FIX ONLY WORK FOR ESX
+
+
 ## Usage
 - Set you framework from config. If you set the framework to "standalone" hunger, thirst and money will not be shown
 - I added notes to the files so you can modify it easily
