@@ -33,7 +33,9 @@ end
 CreateThread(function()
     while true do
 		Wait(1000)
-
+		while not ESX.PlayerLoaded do
+           	  Wait(500)
+        	end
 		if Config.Framework == "esx" then
 			PlayerData = Framework.GetPlayerData()
 		elseif Config.Framework == "qb" then
